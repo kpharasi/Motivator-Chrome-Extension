@@ -1,0 +1,37 @@
+@font-face {
+	font-family: TimeFont;
+	src: url('Lobster_1.3.otf');
+}
+
+body {
+	background-color:#355088;
+	text-align: center;
+	margin: 0 0 0 0 ;
+	overflow: hidden;
+}
+
+div {
+	height:33%;
+	width: 100%;
+	text-align: center;
+	margin: 0 0 0 0 ;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0 0 0 0;
+}
+
+#quote {
+	color: white;
+	padding-top: 3%;
+	font-size: 25px;
+	text-shadow: 0 0px 15px #fff;
+}
+
+#author {
+	padding-top: 1%;
+	color: #FFFFFF;	
+	opacity: 0.8;
+}
