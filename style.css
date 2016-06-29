@@ -4,7 +4,6 @@
 }
 
 body {
-	background-color:#355088;
 	text-align: center;
 	margin: 0 0 0 0 ;
 	overflow: hidden;
@@ -24,7 +23,7 @@ p {
 }
 
 #quote {
-	color: white;
+	color: black;
 	padding-top: 3%;
 	font-size: 25px;
 	text-shadow: 0 0px 15px #fff;
@@ -32,6 +31,32 @@ p {
 
 #author {
 	padding-top: 1%;
-	color: #FFFFFF;	
+	color: black;	
 	opacity: 0.8;
+}
+
+.analog-clock{
+	width:140px;
+	height:140px;
+}
+
+#clock-face{
+	stroke:black;
+	fill:white;
+}
+
+#h-hand, #m-hand, #s-hand, #s-tail{
+	stroke:black;
+}
+
+#h-hand{
+	stroke-width:3px;
+}
+
+#m-hand{
+	stroke-width:2px;
+}
+
+#s-hand{
+	stroke-width:1px;
 }
